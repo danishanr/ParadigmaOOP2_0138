@@ -25,7 +25,7 @@ public :
 };
 
 int main() {
-    seseorang obyek;
+    seseorang *obyek;
     joko a;
     lia b;
 
@@ -33,7 +33,7 @@ int main() {
     obyek->pesan();
     obyek = &b;
     obyek->pesan();
-    //a.seseorang::pesan();
-    //b.seseorang::pesan();
+    // a.seseorang::pesan();
+    // b.seseorang::pesan();
     return 0;
 }
